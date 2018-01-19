@@ -1,0 +1,152 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="Amazon Tabs and Slider">
+    <meta name="author" content="Kutha Pavan">
+	  <title>Amazon Tabs & Slider</title>
+                                            	 <!--style sheets  -->
+   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+	 <link rel="stylesheet" type="text/css" href="./assets/css/style.css">	
+</head>
+<body onload="openSlide(event, 'first')">
+  <div class="header">
+    <h2>Today's Deals</h2>
+    <p>Great Savings. Every Day. Shop from our Deal of th day.Lightning deals and avail other great offers. Sign up for deal notifications.</p>
+    <h3>Lightning Deals in Sports, Fitness & Outdoors </h3>
+  </div>								
+  <div class="tab">								<!-- tab links -->
+    <button class="tablink active" id="firsttab" onclick="openSlide(event, 'first')" > All Available</button>
+    <button class="tablink" id="secondtab" onclick="openSlide(event, 'second')">Upcoming</button><br>
+    <hr>
+  </div>
+  <div id="first" class="tabcontent">				<!-- first tab content starting -->
+    <div class="well">
+    	<div class="row firstslide">
+    		<div class="numbertext">1 / 2</div>				<!-- first slider starting -->
+    		<div class="col-lg-3">
+    			<img src="https://images-na.ssl-images-amazon.com/images/I/51vpL1FSj%2BL._AA210_.jpg"  alt="image" title="Skipping rope">
+          <span class="badge">App only access</span>
+          <p id="txt">Skipping rope</p><p><b>&#8377;300</b></p>
+          <p><button class="button">View Deal</button></p>
+        </div>
+        <div class="col-lg-3">
+          <img src="https://images-na.ssl-images-amazon.com/images/I/31p4Hxf2m8L._AA210_.jpg" alt="Image" title="Weight Calculator">
+          <span class="badge">App only access</span>
+          <p>Weight Calculator</p><p><b>&#8377;299</b></p>
+          <p><button class="button">View Deal</button></p>
+        </div>
+        <div class="col-lg-3">
+          <img src="https://images-na.ssl-images-amazon.com/images/I/41Cvl%2BGKsyL._AA210_.jpg" alt="Image" title=" Dumbell Set">
+          <span class="badge">App only access</span>
+          <p>Aurion PVC1 Plastic Dumbell Set</p><p><b>&#8377;445</b></p>
+          <p><button class="button">View Deal</button></p>
+        </div>
+        <div class="col-lg-3">
+          <img src="https://images-na.ssl-images-amazon.com/images/I/41H61%2BBgIvL._AA210_.jpg" alt="Image" title="Gym Ball">
+          <span class="badge">App only access</span>
+          <p>Fitkit Anti-Burst Gym Ball</p><p><b>&#8377;326</b></p>
+          <p><button class="button">View Deal</button></p>
+        </div>
+      </div>
+      <div class="row firstslide">
+        <div class="numbertext">2 / 2</div>       <!-- second slider starting -->
+        <div class="col-lg-3">
+          <img src="https://images-na.ssl-images-amazon.com/images/I/51JJ19nu47L._AA210_.jpg" alt="Image" title="KOBO Fitness Gloves">
+          <span class="badge">App only access</span>
+          <p>KOBO Fitness Gloves</p><p><b>&#8377;555</b></p>
+          <p><button class="button">View Deal</button></p>
+        </div>
+        <div class="col-lg-3">
+          <img src="https://images-na.ssl-images-amazon.com/images/I/41ST6IoehsL._AA210_.jpg" alt="Image" title="Pain Relief Patch">
+          <span class="badge">App only access</span>
+          <p>Viopatch Pain Relief Patch</p><p><b>&#8377;999</b></p>
+          <p><button class="button">View Deal</button></p>
+        </div>
+    		<div class="col-lg-3">
+    			<img src="https://images-na.ssl-images-amazon.com/images/I/411R5Am2ljL._AA210_.jpg" alt="image" title="Moto Push Up Bar">
+    			<span class="badge">App only access</span>
+          <p>Strauss Moto Push Up Bar</p><p><b>&#8377;450</b></p>
+    			<p><button class="button">View Deal</button></p>
+    		</div>
+    		<div class="col-lg-3">
+    			<img src="https://images-na.ssl-images-amazon.com/images/I/51eJTCNJA1L._AA210_.jpg" alt="image" title="gym & Fitness Kit">
+    			<span class="badge">App only access</span>
+          <p>Home gym & Fitness Kit</p><p><b>&#8377;745</b></p>
+    			<p><button class="button">View Deal</button></p>
+    		</div>
+    	</div>
+    	<ul class="pager">
+    		<li class="previous" id="left"><a onclick="changeSlide(-1)">&#10094;</a></li>
+    		<li class="next" id="right"><a onclick="changeSlide(1)">&#10095;</a></li>
+    	</ul>
+    </div>
+  </div>									                  <!-- first tab content ending -->
+  <div id="second" class="tabcontent">			<!-- second tab content starting-->
+    <div class="well">
+    	<div class="row secondslide">
+    		<div class="numbertext">1 / 2</div>		<!-- first slider starting-->
+    		<div class="col-lg-3">
+    			<img src="https://images-na.ssl-images-amazon.com/images/I/41ePUFn-uiL._AA210_.jpg" alt="image" title="KOBO Fitness Gloves">
+    			<span class="badge">App only access</span>
+          <p>KOBO Fitness Gloves</p><p><b>&#8377;499</b></p>
+    			<p><button class="button">View Deal</button></p>
+    		</div>
+    		<div class="col-lg-3">
+    			<img src="https://images-na.ssl-images-amazon.com/images/I/41Cvl%2BGKsyL._AA210_.jpg" alt="image" title="Plastic Dumbell Set">
+    			<span class="badge">App only access</span>
+          <p>Plastic Dumbell Set, 4Kg (Blue) </p><p><b>&#8377;865</b></p>
+    			<p><button class="button">View Deal</button></p>
+    		</div>
+    		<div class="col-lg-3">
+    			<img src="https://images-na.ssl-images-amazon.com/images/I/41XNLZsI-gL._AA210_.jpg" alt="image" title="Cockatoo Iron Gym Bar">
+    			<span class="badge">App only access</span>
+          <p>Cockatoo Iron Gym Bar</p><p><b>&#8377;1299</b></p>
+    			<p><button class="button">View Deal</button></p>
+    		</div>
+    		<div class="col-lg-3">
+    			<img src="https://images-na.ssl-images-amazon.com/images/I/41DwERSNLUL._AA210_.jpg" alt="image" title="NordicTrack Treadmill">
+    			<span class="badge">App only access</span>
+          <p>NordicTrack T16.0 Treadmill</p><p><b>&#8377;4500</b></p>
+    			<p><button class="button">View Deal</button></p>
+    		</div>
+    	</div>
+    	<div class="row secondslide">
+    		<div class="numbertext">2 / 2</div>		<!-- second slider starting -->
+    		<div class="col-lg-3">
+    			<img src="https://images-na.ssl-images-amazon.com/images/I/41yaw0FCpML._AA210_.jpg" alt="image" title="Iron Gym Bar">
+    			<span class="badge">App only access</span>
+          <p>Cockatoo Iron Gym Bar,Chin Up Bar</p><p><b>&#8377;564</b></p>
+    			<p><button class="button">View Deal</button></p>
+    		</div>
+    		<div class="col-lg-3">
+    			<img src="https://images-na.ssl-images-amazon.com/images/I/41OBzxNTwkL._AA210_.jpg" alt="image" title="Hand Gripper">
+    			<span class="badge">App only access</span>
+          <p>Kore K-1PR-HGRIPPER Hand Gripper</p><p><b>&#8377;899</b></p>
+    			<p><button class="button">View Deal</button></p>
+    		</div>
+    		<div class="col-lg-3">
+    			<img src="https://images-na.ssl-images-amazon.com/images/I/51QcFctrIEL._SCLZZZZZZZ___AA210_.jpg" alt="image" title="Recreation Cycle">
+    			<span class="badge">App only access</span>
+          <p>Frog Batman Recreation Cycle</p><p><b>&#8377;650</b></p>
+    			<p><button class="button">View Deal</button></p>
+    		</div>
+    		<div class="col-lg-3">			
+    			<img src="https://images-na.ssl-images-amazon.com/images/I/41yVNAIc%2B-L._AA210_.jpg" alt="image" title="WheatGrass">
+    			<span class="badge">App only access</span>
+          <p>WheatGrass(Aloevera)</p><p><b>&#8377;633</b></p>
+    			<p><button class="button">View Deal</button></p>
+    		</div>
+    	</div>
+    	<ul class="pager">
+    		<li class="previous" id="left"><a onclick="changeImage(-1)">&#10094;</a></li>
+    		<li class="next" id="right"><a onclick="changeImage(1)">&#10095;</a></li>
+    	</ul>
+    </div>
+  </div>					<!-- second tab content ending -->
+  <script src="./assets/js/script.js"></script>
+</body>
+</html>

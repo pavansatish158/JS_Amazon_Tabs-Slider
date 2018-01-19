@@ -1,0 +1,140 @@
+
+h2{
+    margin-top:20px;
+}
+
+div.tab 
+{
+    overflow: hidden;
+    margin-left: 10px; 
+}
+.tablink    /*tab buttons*/
+{
+    background-color: inherit;
+    float: left;
+    border:none; 
+    outline: none;
+    cursor: pointer;
+}
+.tab button:hover  /*buttons on hover*/
+{
+    border-bottom: 2px solid #E77600 !important;
+}
+button.tablink.active   /*active buttons */
+{
+    border-bottom: 2px solid #E77600 !important;
+    color: black;
+    font-weight: bold;
+}
+.tabcontent         
+{
+    display: none;
+    padding: 1px 15px;
+    border-top: none;
+    width:auto;
+    height: 348.5px;
+}
+.pager .previous > a, .pager .next > a   /* left and right arrow icons placing*/
+{
+    margin-top:-15%;
+    position: absolute;
+    z-index: 1;
+    display: inline-block;
+    font-size: 20px;
+    padding:20px 10px 20px 10px;
+    border-radius: 5px;
+}
+.pager .previous a:hover , .pager .next a:hover
+{
+    cursor: pointer;
+    background-color: #e0e3e9;
+    
+}
+#right a     /*right arrow icon placing*/
+{
+    margin-left: 610px !important;
+    border-radius: 3px;
+}
+#left a        /*left arrow icon placing*/
+{
+    margin-left: -642px! important;
+}
+hr 
+{
+    margin-top:5px!important;
+    margin-bottom:5px!important;
+}
+.btn-md
+{
+    width: 100%;
+    height: 241.5px;
+}
+.col-lg-3
+{
+    padding-left: 57px!important;
+    width: 24%!important;
+    height: 241.5px !important;
+
+}
+.col-lg-3 img
+{
+    width: 170px;
+    height: 150px;
+}
+.col-lg-3 p
+{
+    color: #576FC0;
+    height: 40px;
+    
+}
+#txt 
+{
+    
+    height: 40px;
+    
+}
+.col-lg-3>p>b
+{
+    color:#B12704;
+}
+.numbertext
+{
+    float: right;
+    font-weight: bold;
+}
+.badge
+{
+    background-color: #f14307!important;
+}
+
+.button 
+{                   
+  border: none;
+  outline: 0;
+  display: block;
+  padding: 8px;
+  color: #111;
+  background-color: #f0c14b;
+  text-align: center;
+  cursor: pointer;
+  float: center;
+  margin-left: auto;
+  margin-right: auto;
+  width: 100%;
+
+}
+.button:hover  /*buttons on hover*/
+{
+    border-bottom: 2px solid #E77600 !important;
+}
+
+.well  /*inside elements display*/
+{
+    min-height: 20px;
+    padding: 19px;
+    margin-bottom: 20px;
+    background-color: #fff;
+  /*  border: 1px solid #e3e3e3;*/
+    width: auto;
+    height: 321px;
+}

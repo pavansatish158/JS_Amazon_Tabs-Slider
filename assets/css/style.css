@@ -59,6 +59,12 @@ button.tablink.active   /*active buttons */
 {
     margin-left: -642px! important;
 }
+
+.numbertext
+{
+    float: right;
+    font-weight: bold;
+}
 hr 
 {
     margin-top:5px!important;
@@ -81,30 +87,41 @@ hr
     width: 170px;
     height: 150px;
 }
+.col-lg-3 img:hover
+{
+    width: 170px;
+    height: 150px;
+    transform: scale(1.5);
+}
+
 .col-lg-3 p
 {
+    width: 228px;
+    height: 100px;
+}
+
+.txt
+{
+    margin-top: 10px;
+    height: 50px;
     color: #576FC0;
-    height: 40px;
-    
-}
-#txt 
-{
-    
-    height: 40px;
-    
-}
-.col-lg-3>p>b
-{
-    color:#B12704;
-}
-.numbertext
-{
-    float: right;
+    float: left;
     font-weight: bold;
+    width: 228px;
+    overflow: hidden;
+    cursor: default;
 }
+
+.txt:hover
+{
+    color: #f14307;
+}
+
 .badge
 {
     background-color: #f14307!important;
+    cursor: default;
+
 }
 
 .button 
@@ -121,11 +138,12 @@ hr
   margin-left: auto;
   margin-right: auto;
   width: 100%;
+  margin-top: 10px;
 
 }
 .button:hover  /*buttons on hover*/
 {
-    border-bottom: 2px solid #E77600 !important;
+    background-color: #dbaf41;
 }
 
 .well  /*inside elements display*/
@@ -134,7 +152,6 @@ hr
     padding: 19px;
     margin-bottom: 20px;
     background-color: #fff;
-  /*  border: 1px solid #e3e3e3;*/
     width: auto;
     height: 321px;
 }

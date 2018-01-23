@@ -66,6 +66,37 @@ function showSlidey(m)
     }
         y[slideIndex-1].style.display = "block";
 }
-   var tablink = document.getElementsByClassName("tablink");
-   tablink[0].className += " active";
+   
+    // active tab display
+    var tablink = document.getElementsByClassName("tablink");
+    tablink[0].className += " active";
+    
+    // xml file 
+    if (window.XMLHttpRequest) // code for IE7+, Firefox, Chrome, Opera, Safari  
+    {
+        xmlhttp = new XMLHttpRequest();
+    } else {
+        xmlhttp = new ActiveXObject("Microsoft.XMLHTTP");
+    }
+        xmlhttp.open("GET", "tab-slider.xml", false);
+        xmlhttp.send();
+        xmlDoc = xmlhttp.responseXML;
+    
+        var k = xmlDoc.getElementsByTagName("item");
+    
+    //Loop for Retreiving all values 
+    for (n = 0; n<k.length; n++) {
+        document.getElementById('pro' + n.toString()).innerHTML = pro(n);
+    }
+    // function for retrieving values from xml file 
+function pro(n) 
+{
+    var k =
+        xmlDoc.getElementsByTagName("name")[n].childNodes[0].nodeValue + "<br>" +
+        xmlDoc.getElementsByTagName("price")[n].childNodes[0].nodeValue;
+    return k;
+}
+
+
+
 

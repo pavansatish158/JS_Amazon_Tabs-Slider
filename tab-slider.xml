@@ -1,0 +1,134 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+
+<products>
+    <item>
+        <id>pro0</id>
+        <category>sports</category>
+        <name>Skipping rope</name>
+        <price>&#8377;149</price>
+        <availability>avialable</availability>
+        <instock>yes</instock>
+    </item>
+    <item>
+        <id>pro1</id>
+        <category>sports</category>
+        <name>Fitness Calculator</name>
+        <price>&#8377;299</price>
+        <availability>avialable</availability>
+        <instock>yes</instock>
+    </item>
+    <item>
+        <id>pro2</id>
+        <category>sports</category>
+        <name>Aurion PVC1 Plastic Dumbell Set</name>
+        <price>&#8377;499</price>
+        <availability>avialable</availability>
+        <instock>yes</instock>
+    </item>
+    <item>
+        <id>pro3</id>
+        <category>sports</category>
+        <name>Fitkit Anti-Burst Gym Ball</name>
+        <price>&#8377;299</price>
+        <availability>avialable</availability>
+        <instock>yes</instock>
+    </item>
+    <item>
+        <id>pro4</id>
+        <category>sports</category>
+        <name>KOBO Fitness Gloves</name>
+        <price>&#8377;599</price>
+        <availability>avialable</availability>
+        <instock>yes</instock>
+    </item>
+    <item>
+        <id>pro5</id>
+        <category>sports</category>
+        <name>Viopatch Pain Relief Patch</name>
+        <price>&#8377;249</price>
+        <availability>avialable</availability>
+        <instock>yes</instock>
+    </item>
+    <item>
+        <id>pro6</id>
+        <category>sports</category>
+        <name>Strauss Moto Push Up Bar</name>
+        <price>&#8377;449</price>
+        <availability>avialable</availability>
+        <instock>yes</instock>
+    </item>
+    <item>
+        <id>pro7</id>
+        <category>sports</category>
+        <name>Home gym and Fitness Kit</name>
+        <price>&#8377;2499</price>
+        <availability>avialable</availability>
+        <instock>yes</instock>
+    </item>
+    <item>
+        <id>pro8</id>
+        <category>sports</category>
+        <name>KOBO Fitness Gloves</name>
+        <price>&#8377;599</price>
+        <availability>upcoming</availability>
+        <instock>yes</instock>
+    </item>
+    <item>
+        <id>pro9</id>
+        <category>sports</category>
+        <name>Plastic Dumbell Set, 4Kg (Blue)</name>
+        <price>&#8377;499</price>
+        <availability>upcoming</availability>
+        <instock>yes</instock>
+    </item>
+    <item>
+        <id>pro10</id>
+        <category>sports</category>
+        <name>Cockatoo Iron Gym Bar</name>
+        <price>&#8377;500</price>
+        <availability>upcoming</availability>
+        <instock>yes</instock>
+    </item>
+    <item>
+        <id>pro11</id>
+        <category>sports</category>
+        <name>NordicTrack T16.0 Treadmill</name>
+        <price>&#8377;4099</price>
+        <availability>upcoming</availability>
+        <instock>yes</instock>
+    </item>
+    <item>
+        <id>pro12</id>
+        <category>sports</category>
+        <name>Cockatoo Iron Chin Up Bar</name>
+        <price>&#8377;899</price>
+        <availability>upcoming</availability>
+        <instock>yes</instock>
+    </item>
+    <item>
+        <id>pro13</id>
+        <category>sports</category>
+        <name>Kore K-1PR-Hand Gripper</name>
+        <price>&#8377;249</price>
+        <availability>upcoming</availability>
+        <instock>yes</instock>
+    </item>
+    <item>
+        <id>pro14</id>
+        <category>sports</category>
+        <name>Gym Gloves</name>
+        <price>&#8377;1750</price>
+        <availability>upcoming</availability>
+        <instock>yes</instock>
+    </item>
+    <item>
+        <id>pro15</id>
+        <category>sports</category>
+        <name>Iron Dumbell Set</name>
+        <price>&#8377;599</price>
+        <availability>upcoming</availability>
+        <instock>yes</instock>
+    </item>
+
+</products>

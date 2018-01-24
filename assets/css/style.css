@@ -1,12 +1,26 @@
-
-h2{
-    margin-top:20px;
+body {
+    width: auto;
+    margin:0;
+    padding: 0; 
 }
 
+
+h2  {
+    margin-top:20px;
+    padding-left: 10px;
+}
+h3 {
+    padding-left:10px; 
+}
+
+.header p{
+    padding-left: 10px;
+}
 div.tab 
 {
     overflow: hidden;
     margin-left: 10px; 
+    padding-left: 10px;
 }
 .tablink    /*tab buttons*/
 {
@@ -31,39 +45,74 @@ button.tablink.active   /*active buttons */
     display: none;
     padding: 1px 15px;
     border-top: none;
-    width:auto;
+    width:100%;
     height: 348.5px;
 }
-.pager .previous > a, .pager .next > a   /* left and right arrow icons placing*/
-{
-    margin-top:-15%;
-    position: absolute;
-    z-index: 1;
+
+.pager li>a, .pager li>span {
     display: inline-block;
-    font-size: 20px;
-    padding:20px 10px 20px 10px;
-    border-radius: 5px;
+    position: relative;
+    padding: 5px 14px;
+    background-color: #fff;
+    border: 1px solid #ddd;
+    border-radius: 15px;
+    margin-top: -190px;
 }
+
+
+.pager .previous a {
+    margin-left: -30px;
+}
+
+/* Position of "next button" to the right */
+ .next {
+     right: 0;
+     border-radius: 3px 0 0 3px;
+}
+
+.previous {
+     left: 0 ;
+     border-radius: 3px 0 0 3px;
+}
+
+
+
+
 .pager .previous a:hover , .pager .next a:hover
 {
     cursor: pointer;
     background-color: #e0e3e9;
     
 }
-#right a     /*right arrow icon placing*/
-{
-    margin-left: 610px !important;
-    border-radius: 3px;
+
+
+/* responsive with max-width of screen */
+ @media screen and (max-width: 720px) {
+     .previous, .next {
+         font-size: 11px;
+         position: relative;
+         margin-top: 50%; 
+    }
+    .button {
+         width: auto;
+    }
+    .well {
+        width: 50%;
+    }
+    .col-lg-3 img{
+        margin-left: 30%;
+        margin-top: 5%;
+        width: 20%;
+        height: 30%;
+    }
 }
-#left a        /*left arrow icon placing*/
-{
-    margin-left: -642px! important;
-}
+
 
 .numbertext
 {
-    float: right;
+    float: right ;
     font-weight: bold;
+    position: relative;
 }
 hr 
 {
@@ -75,12 +124,11 @@ hr
     width: 100%;
     height: 241.5px;
 }
-.col-lg-3
-{
-    padding-left: 57px!important;
-    width: 24%!important;
-    height: 241.5px !important;
 
+.col-lg-3 {
+   /* padding-left: 3px!important;*/
+    margin-left: 30px;
+    width: 22%!important;
 }
 .col-lg-3 img
 {
@@ -137,8 +185,9 @@ hr
   float: center;
   margin-left: auto;
   margin-right: auto;
-  width: 100%;
+  width: 228px;
   margin-top: 10px;
+  font-size: 15px;
 
 }
 .button:hover  /*buttons on hover*/
@@ -149,9 +198,9 @@ hr
 .well  /*inside elements display*/
 {
     min-height: 20px;
-    padding: 19px;
+    padding: 25px;
     margin-bottom: 20px;
     background-color: #fff;
-    width: auto;
+    width: 100%;
     height: 321px;
 }
